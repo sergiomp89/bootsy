@@ -64,7 +64,7 @@
             "</li>";
         },
 
-        "image": function(locale, options) {
+        /*"image": function(locale, options) {
             var size = (options && options.size) ? ' btn-'+options.size : '';
             return "<li>" +
               "<div class='bootstrap-wysihtml5-insert-image-modal modal fade' tabindex='-1' role='dialog' aria-hidden='true'>" +
@@ -86,7 +86,7 @@
               "</div>" +
               "<a class='btn btn-default " + size + "' data-wysihtml5-command='insertImage' title='" + locale.image.insert + "' tabindex='-1'><i class='fa fa-file-image-o'></i></a>" +
             "</li>";
-        },
+        },*/
 
         "html": function(locale, options) {
             var size = (options && options.size) ? ' btn-'+options.size : '';
